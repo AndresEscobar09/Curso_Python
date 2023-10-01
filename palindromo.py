@@ -11,7 +11,7 @@ while (x>0):
         palabra1 = palabra1 + palabra[i]
 
     if palabra == palabra1 and len(palabra) > 1:
-        print('la palabra "',palabra,'" es un palindromo\n')
+        print('la palabra "',palabra,'" si es un palindromo\n')
     else:
         print('la palabra "',palabra,'" no es un palindromo\n')
 
