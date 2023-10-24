@@ -22,6 +22,8 @@ while True:
         for item in lista_compras:
             if item == element:
                 lista_compras.remove(item)
+            else:
+                print('el elemento ingresado no existe en la lista\n')
     elif option == 3:
         print(lista_compras)
     elif option == 4:
