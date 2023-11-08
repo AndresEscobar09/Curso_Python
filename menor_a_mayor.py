@@ -13,4 +13,6 @@ while(x > 0) :
     listaNumeros.append(numero)
 
 listaNumeros.sort()
+
+
 print('los numeros ingresados ordenados de menor a mayor son: ',listaNumeros)
